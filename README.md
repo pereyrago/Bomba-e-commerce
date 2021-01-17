@@ -6,9 +6,11 @@ E-commerce desarrollado como proyecto final del Bootcamp Henry, realizado con la
 
 Demo online: https://bomba-ecommerce.web.app/
 
-> **Usuario Admin**
-> User: admin@admin.com
-> password: Admin123
+**Usuario Admin**
+
+User: admin@admin.com
+
+password: Admin123
 
 ---
 
@@ -33,30 +35,28 @@ Demo online: https://bomba-ecommerce.web.app/
 #### User
 
 > - Registar usuario
-
-- Login usuario
-- Login con autenticacion de Google
-- Perfil e imagen de usuario modificables
-- Agregar productos al carrito
-- Carrito de invitado se mantiene al Logearse
-- Modificar productos del carrito
-- eliminar productos del carrito
-- Chechkout integrado con MercadoPago
-- Control de stock
-- Permite dejar Reviews una vez que compraste un producto
-- Calisifcaion de productos
-- Recuperacion de contraseña via Mail
-- checkout informacion via Mail
-- Formulario de contacto a todos los admin via Mail
-- Filtado de productos por Categorias, SearchBar y catalogo completo
+> - Login usuario
+> - Login con autenticacion de Google
+> - Perfil e imagen de usuario modificables
+> - Agregar productos al carrito
+> - Carrito de invitado se mantiene al Logearse
+> - Modificar productos del carrito
+> - eliminar productos del carrito
+> - Chechkout integrado con MercadoPago
+> - Control de stock
+> - Permite dejar Reviews una vez que compraste un producto
+> - Calisifcaion de productos
+> - Recuperacion de contraseña via Mail
+> - checkout informacion via Mail
+> - Formulario de contacto a todos los admin via Mail
+> - Filtado de productos por Categorias, SearchBar y catalogo completo
 
 #### Admin
 
 > - CRUD productos
-
-- CRUD Categorias
-- Tabla de todas las ordenas con filtrados
-- Reasignar productos a categorias
-- Ascender un usuario a administrador
-- Bannear permanentemente a un usuario
-- Obligar a un usuario a que cambie su password
+> - CRUD Categorias
+> - Tabla de todas las ordenas con filtrados
+> - Reasignar productos a categorias
+> - Ascender un usuario a administrador
+> - Bannear permanentemente a un usuario
+> - Obligar a un usuario a que cambie su password
