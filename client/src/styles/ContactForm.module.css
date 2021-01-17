@@ -1,0 +1,109 @@
+.container{
+   
+        background-color: white;
+        width: 50vw;
+        height: 50vh;
+        margin-left: auto;
+        margin-right:auto;
+        display: flex;
+        box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.20);
+        margin-top: 2%;
+        border-radius: 20px;
+    
+    
+}
+
+.form{
+    margin-right: 2%;
+}
+
+
+
+.formContainer{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    width: 80%;
+    padding-left: 5%;
+    margin-top: auto;
+    margin-bottom :auto;
+    font-size: 18px;
+    font-family: 'Comfortaa';
+}
+
+.recuadro{
+    width: 20vw;
+    border: none;
+    background-color: rgb(226, 218, 218);
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+
+textarea{
+    
+    border: none;
+    background-color: rgb(226, 218, 218);
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+
+.formArea{
+    width: 100%;
+    padding: 2%;
+}
+
+.textArea{
+    width: 100%;
+    height: 15vh;
+}
+
+.botonText{
+    width: 9vw;
+    height: 4vh;
+    background-color: #C14B34;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: solid 1px #C14B34;
+    margin: 1%;
+    margin-bottom: 5%;
+    /*box-shadow: 2px 2px 2px 0px rgba(165, 97, 139, 0.699);*/
+   
+    
+}
+
+
+.botonText:focus{
+    outline: none;
+}
+
+.botonText:hover{
+    text-decoration: none;
+    color: white;
+    background-color:#EB9797;
+    transition: 1s;
+    transform: scale(0.95);
+    /*box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.30);*/
+}
+.cont{
+    width: 46vw;
+    text-align: right;
+    margin-top:2%;
+
+ 
+}
+
+.x{    
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #C14B34;
+    border: #C14B34;
+    border-radius: 5px;
+    color: white;        
+    
+}

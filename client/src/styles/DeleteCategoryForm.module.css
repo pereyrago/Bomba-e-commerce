@@ -1,0 +1,20 @@
+
+.categoria {
+    font-family: 'Comfortaa';
+
+}
+
+.formulario{
+    padding-left: 10vw;
+    text-align: justify;
+}
+
+
+.label{
+    padding-right: 2vw;
+}
+/* 
+width: 50vw;
+    height: 20vh;
+    border: solid 2px white;
+    font-size: 20px; */

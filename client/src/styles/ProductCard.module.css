@@ -1,0 +1,143 @@
+.main{
+    margin-top: 5%;
+    margin-left: 5%;
+    
+
+}
+
+.product{
+    width: 40vw;
+    height: 28vh;
+    background-color: white;
+    display: flex;
+    margin: 2%;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.20);
+    border-radius: 20px;
+}
+
+.info{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-right: auto;
+    margin: 3%;
+    padding: 1%;
+    
+}
+
+
+.titulo {
+    font-family: 'Comfortaa';
+    font-size: 16px;
+    margin:1%;
+
+}
+
+.precio {
+    font-family: 'Comfortaa';
+    font-size: 18px;
+    margin:1%;
+}
+
+.botonText{
+    width: 15vw;
+    height: 4vh;
+    background-color: #C14B34;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 10px;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: solid 1px #C14B34;
+    margin: 1%;
+    margin-bottom: 5%;
+    
+}
+
+.botonText:focus{
+    outline: none;
+}
+
+.botonText:hover{
+    text-decoration: none;
+    color: white;
+    background-color:#EB9797;
+    transition: 1s;
+    transform: scale(0.95);
+    /*box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.30);*/
+}
+
+.botonText.active{
+    outline: none;
+}
+
+.circulo{
+    width: 180px;
+    height: 180px;
+    margin:2%;
+    text-align: center;
+    position: relative;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+}
+
+.imagen{
+    width: 60%;
+    height: 60%;   
+}
+
+.botonDisabled{
+    width: 9vw;
+    height: 4vh;
+    background-color: #ebe6e6;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 15px;
+    color: #EB9797;
+    border-radius: 12px;
+    outline: none;
+    border: solid 1px #EB9797;
+    margin: 1%;
+    margin-bottom: 5%;
+    padding: 1%;
+}
+
+.botonDisabled:focus{
+    outline: none;
+}
+.sinStock{
+    font-family: 'Comfortaa';
+    display: inline;
+}
+
+@media (min-width: 768px) {
+    .main{margin-top: 3%;}
+    .imagen{
+        width: 100%;
+        height: 100%;   
+    }
+    .precio {font-size: 25px;}
+    .titulo {font-size: 20px;}
+    .botonText{
+        width: 9vw;
+        height: 4vh;
+        font-weight: 300;
+        font-size: 15px;
+        margin: 1%;
+        margin-bottom: 5%;   
+    }
+    .info{
+        width: 20vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        margin-right: auto;
+        margin: 3%;
+        padding: 1%;
+        
+    }
+   
+}

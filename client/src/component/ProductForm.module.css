@@ -1,0 +1,109 @@
+h2{
+    font-size: 25px;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    margin: 20px;
+}
+
+.formCard{
+    width: 50vw;
+    height: auto;
+    border-top: solid 2px grey;
+    font-size: 15px;
+    font-family: 'Comfortaa';
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario{
+    
+    text-align: justify;
+}
+
+.label{
+    padding-right: 2vw;
+    width: 30%;
+   
+}
+
+.input{
+    background-color: rgba(226, 196, 196, 0.575);
+    border: none;
+    width: 60%;
+    height: 30px;
+    padding-right: 10%;
+    outline: none;
+    margin: 10px;
+    
+}
+
+.botonText{
+    width: 20vw;
+    height: 5vh;
+    background-color: #C14B34;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 4%;
+    border-radius: 10px;
+    border: solid 1px #C14B34;
+}
+
+.botonText:hover{
+    transform: scale(0.95);
+    transition: 1s;
+}
+.botonGuardar{
+    width: 3vw;
+    height: 5vh;
+    background-color: #C14B34;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 4%;
+    border-radius: 10px;
+    border: solid 1px #EB9797;
+}
+
+.botonGuardar:hover{
+    transform: scale(0.95);
+    transition: 1s;
+}
+
+.botonImg{
+    width: 3vw;
+    height: 5vh;
+    background-color: #C14B34;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 4%;
+    border-radius: 10px;
+    border: solid 1px #C14B34;
+}
+
+.botonImg:hover{
+    transform: scale(0.95);
+    transition: 1s;
+}
+
+.icon{
+    width: 2vw;
+    
+}
+
+.select{
+    
+    background-color: rgba(226, 196, 196, 0.575);
+    padding: 10px;
+
+}

@@ -1,0 +1,36 @@
+.botonGuardar{
+    width: 5vw;
+    height: 7vh;
+    background-color: #EB9797;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    margin: 4%;
+    border-radius: 10px;
+}
+
+.icon{
+    width: 2vw;
+    
+}
+
+.botonImg{
+    width: 3vw;
+    height: 5vh;
+    background-color: #EB9797;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 4%;
+    border-radius: 10px;
+    border: solid 1px #EB9797;
+}
+
+.titulo{
+   font-family: 'Comfortaa';
+   font-size: 20px;
+}

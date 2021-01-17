@@ -1,0 +1,217 @@
+
+.product{
+    background-color: white;
+    width: 50vw;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.20);
+    margin-top: 2%;
+    border-radius: 20px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    margin-top: auto;
+    margin-bottom :auto;
+}
+
+.titulo{
+    font-family: 'Comfortaa';
+    font-size: 30px;
+    color: rgb(95, 87, 87);
+}
+
+.precio{
+    font-family: 'Comfortaa';
+    font-size: 30px;
+    color: rgb(95, 87, 87);
+}
+
+.descripcion{
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    color: rgb(95, 87, 87);
+}
+
+.noStock{
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: rgb(95, 87, 87);
+}
+
+.stock{
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    color: rgb(95, 87, 87);
+}
+
+.img{
+    height: 50vh;
+    padding: 5%;
+}
+
+
+.botonText{
+    width: 9vw;
+    height: 4vh;
+    background-color: #C14B34;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: solid 1px #C14B34;
+    margin: 1%;
+    margin-bottom: 5%;
+    /*box-shadow: 2px 2px 2px 0px rgba(165, 97, 139, 0.699);*/
+   
+    
+}
+
+.botonText:focus{
+    outline: none;
+}
+
+.botonText:hover{
+    text-decoration: none;
+    color: white;
+    background-color:#EB9797;
+    transition: 1s;
+    transform: scale(0.95);
+    /*box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.30);*/
+}
+
+.botonDisabled{
+    width: 9vw;
+    height: 4vh;
+    background-color: #ebe6e6;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 15px;
+    color: #EB9797;
+    border-radius: 12px;
+    outline: none;
+    border: solid 1px #EB9797;
+    margin: 2%;
+    margin-bottom: 10%;
+    padding: 1%;
+}
+
+.botonDisabled:focus{
+    outline: none;
+}
+
+.input{
+    width: 25%;
+    margin-right: 1.5%;
+    border-radius: 5px;
+    border: solid 1px grey;
+}
+
+
+
+.botonText2{
+    width: 9vw;
+    height: 4vh;
+    background-color: #C14B34;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: solid 1px #C14B34;
+    margin-right: 2%;
+   
+    
+}
+
+.botonText2:focus{
+    outline: none;
+}
+
+.botonText2:hover{
+    text-decoration: none;
+    color: white;
+    background-color:#EB9797;
+    transition: 1s;
+    transform: scale(0.95);
+}
+
+.rateContainer{
+    display: flex;
+  
+    align-content: center;
+}
+
+.botonRev{
+    
+    background-color: white;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 15px;
+    outline: none;
+    border: solid 1px white;
+    margin-right: 5%;
+    color: rgb(184, 182, 182);
+    padding-bottom: 13%;
+   
+    
+}
+
+.botonRev:hover{
+    color: rgb(92, 90, 90);
+}
+
+.botonRev:active{
+    outline: none;
+    font-weight: 900;
+}
+
+.botonRev:focus{
+    outline: none;
+}
+
+.flechaprev {
+    height: 60px;
+    width: 60px;
+    background-size: 100%, 100%;
+    background-image: none;
+  }
+  
+
+  
+  .flechaprev:before {
+    content: '<';
+    font-size: 30px;
+    color: grey;
+  }
+
+  .flechanext {
+    height: 60px;
+    width: 60px;
+    background-size: 100%, 100%;
+    background-image: none;
+  }
+  .flechanext:after
+  {
+    content: '>';
+    font-size: 30px;
+    color:grey;
+  }
+
+  .slide{
+      margin: 5%;
+  }
+
+  .errores{
+    padding-left: 2%;
+    font-size: 15px;
+    color: red;
+    font-family: 'Comfortaa';
+}

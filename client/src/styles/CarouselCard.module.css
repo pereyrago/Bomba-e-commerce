@@ -1,0 +1,58 @@
+.container{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top: 2%;
+    
+
+}
+
+.titulo{
+    font-family: 'Comfortaa';
+    font-size: 12px;
+
+}
+
+.card{
+    height: 40vh;
+    font-family: 'Comfortaa';
+    margin: 1%;
+    
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.imagen{
+    height: 50%;
+}
+
+.ver{
+    background-color:#C14B34;
+    border-color:  #C14B34;
+    font-family: 'Comfortaa';
+}
+
+.ver:hover{
+    background-color:#D69586;
+    border-color:  #D69586;
+}
+
+@media (min-width: 768px) {
+
+    .imagen{
+        height: 75%;
+    }
+
+    .titulo{
+        font-family: 'Comfortaa';
+        font-size: 13.28px;
+        font-weight: 700;
+    
+    }
+    .card{
+        height: 50vh;       
+    }
+}

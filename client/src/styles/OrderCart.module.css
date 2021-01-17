@@ -1,0 +1,75 @@
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px) opacity(40%);
+    background-color: rgb(255,255,255,0.3);
+}
+
+.tabla{
+    
+    background-color: white;
+    color: black;
+    
+    right:30%;
+    top: 50%;
+}
+
+.tablaCont{
+    width: 35vw;
+    font-family: "Comfortaa";
+    background-color: white;
+    margin: 2%;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.20);
+    border-radius: 20px;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    width: 25%;
+}
+
+.botonContainer{
+    display: flex;
+    
+}
+
+.total{
+    background-color: rgb(242, 242, 242);
+  
+}
+
+.fila{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.parrafo{
+    margin-right: 24vw;
+    font-size:20px ;
+    font-weight: 700;
+
+} 
+
+.btn{
+   /*  position: absolute;
+    top: 0;
+    right: 0; */
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #C14B34;
+    border-color: #C14B34;
+    color: white;
+
+}
+.empty{
+    color:red
+}

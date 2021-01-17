@@ -1,0 +1,35 @@
+.h1{
+    font-family: 'Comfortaa';
+    font-size: 23px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 2%;
+    margin-bottom: -0.5%;
+    color: black;
+}
+.select{
+    background-color: rgb(54, 52, 59);
+    color: floralwhite;
+    font-weight: bold;
+  
+}
+
+.button{
+    margin-left: 1vh;
+    background-color: transparent;
+    border:none;
+    color: black;
+}
+.table{
+    font-family: 'Comfortaa';
+    color: black;
+}
+
+.created{
+    background-color: #C14B34;
+    color: black;
+}
+
+.cart{
+    color: black;
+}

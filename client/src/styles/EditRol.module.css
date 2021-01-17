@@ -1,0 +1,79 @@
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px) opacity(40%);
+    background-color: rgb(255,255,255,0.3);
+}
+
+.tabla{
+    
+    background-color: white;
+    color: black;
+    right:30%;
+    top: 50%;
+}
+
+.tablaCont{
+    width: 50vw;
+    font-family: "Comfortaa";
+    background-color: white;
+    margin: 2%;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.20);
+    border-radius: 20px;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boton {
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 15px;
+    width: 5vw;
+    height: 4vh;
+    text-align: center;
+    background-color: #C14B34;
+    border: #C14B34;
+    border-radius: 5px;
+    color: white;
+}
+
+.disabled {
+    width: 5vw;
+    height: 4vh;
+    background-color: #ebe6e6;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 15px;
+    color: #EB9797;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px #EB9797;
+}   
+
+.cont{
+    width: 46vw;
+    text-align: right;
+    
+
+ 
+}
+
+.x{    
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #C14B34;
+    border: #C14B34;
+    border-radius: 5px;
+    color: white;        
+    
+}
+   
+

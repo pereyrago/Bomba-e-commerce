@@ -1,0 +1,177 @@
+td{
+    border-bottom: solid 1px rgb(207, 199, 199);
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+th{    
+        border-bottom: solid 1px rgb(207, 199, 199);
+        padding-bottom: 1%;
+        padding-top: 1%;    
+}
+
+.par{
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    margin: 20px;
+    text-align: center;
+}
+
+.par1{
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    margin: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+}
+
+.titulo{
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    width: 40%;
+}
+
+.prod{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.seleccion{
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.tabla{
+    width: 60vw;
+    margin-top:2%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.20);
+}
+
+
+.botonContainer{
+    width: 100vw;
+    text-align: center;
+
+}
+
+.boton{
+    
+    width: 10vw;
+    height: 5vh;
+    background-color: #6e6e6d;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    border: solid 1px #6e6e6d;
+    text-align: center;
+    padding-top: 0.5%;
+ 
+}
+.boten{
+    
+    width: 10vw;
+    height: 5vh;
+    background-color: #EB9797;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    border: solid 1px #EB9797;
+    text-align: center;
+    padding-top: 0.5%;
+ 
+}
+
+
+.boton.active{
+    outline: none;
+}
+
+.botonGrande{
+    width: 8vw;
+    height: 3vh;
+    background-color: #EB9797;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 14px;
+    color: white;
+    margin: 1vh;
+    border-radius: 20px;
+    border: solid 1px #EB9797;
+    align-content: center;
+}
+
+.botonChiquito{    
+        width: 3vw;
+        height: 5vh;
+        background-color: #EB9797;
+        font-family: 'Comfortaa';
+        font-weight: 500;
+        font-size: 25px;
+        color: white;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        margin-right: 4%;
+        border-radius: 10px;
+        border: solid 1px #EB9797;
+        text-align: center;
+}
+
+.botonChiquito:hover{    
+    width: 3vw;
+    height: 5vh;
+    background-color: tomato;
+    font-family: 'Comfortaa';
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 4%;
+    border-radius: 10px;
+    border: solid 1px tomato;
+    text-align: center;
+}
+.boton2{    
+    width: 10vw;
+    height: 5vh;
+    background-color: #EB9797;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    border: solid 1px #EB9797;
+    text-align: center;
+    padding-top: 0.5%;
+ 
+}
+
+.agregar{
+    font-family: 'Comfortaa';
+    width: 10%;
+    font-size: 20px;    
+}
+

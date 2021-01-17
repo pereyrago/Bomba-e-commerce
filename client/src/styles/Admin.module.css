@@ -1,0 +1,39 @@
+.admin{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.boton{
+    width: 40vw;
+    height: 8vh;
+    background-color: #C14B34;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    margin: 1%;
+    border-radius: 15px;
+    border: solid 1px #C14B34;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.boton.active{
+    outline: none;
+}
+
+.boton:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #EB9797;
+    transition: 1s;
+    transform: scale(0.95);
+    /*box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.30);*/
+}
+

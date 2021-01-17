@@ -1,0 +1,44 @@
+.box{
+        margin-bottom: 10vh;
+        padding-bottom: 10vh;
+}
+
+.ProductCard{    
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 2%;
+         
+
+}
+
+.Categories{
+        
+        height: 3vh;
+        width: 15vw;
+        /* left: -13%; */
+        background-color: #C14B34;
+        color:white;
+        position: absolute;
+        justify-content: flex-start ;
+        padding-left: 1%;
+        font-size: 12px;
+        font-family: 'Comfortaa';
+        border-radius: 0px 12px 12px 0px;
+        transition: .5s;            
+        
+}
+@media (min-width: 768px) {
+        .Categories{
+                height: 4%;
+                width: 15%;
+                background-color: #C14B34;
+                color:white;
+                position: absolute;
+                justify-content: flex-start ;
+                padding-left: 3%;
+                font-size: 28px;
+                font-family: 'Comfortaa';
+                border-radius: 0px 12px 12px 0px;
+                transition: .5s;   
+        }
+}

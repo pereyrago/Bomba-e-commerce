@@ -1,0 +1,14 @@
+.header{
+    
+    background-color: white;
+    padding-top: 10%;
+    margin-top: -1%;
+    min-width:100vw;
+    height: 150px;
+    background-image:  url("./../component/imgs/portada.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.30);        
+}

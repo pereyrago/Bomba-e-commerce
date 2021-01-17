@@ -1,0 +1,26 @@
+{
+  "icons": [
+    {
+      "src": "bomba.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "name": "Bomba e-commerce",
+  "short_name": "Bomba",
+  "theme_color": "#e921f3",
+  "background_color": "#f321f1",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/"
+}

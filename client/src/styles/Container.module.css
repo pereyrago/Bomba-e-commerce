@@ -1,0 +1,129 @@
+.containertodo{
+    height: 75vh;
+    width: auto;
+    display: grid;
+    grid-template-rows: 0.8fr 0.3fr 5fr 0.5fr;
+}
+
+.crear{
+    width: 100vw;
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 25px;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+}
+
+.input{
+    background-color: rgba(226, 196, 196, 0.575);
+    border: none;
+    width: 30vw;
+    height: 30px;
+    outline: none;
+    margin: 10px;
+    font-size: 15px;
+    
+}
+
+.botonCrear{
+    
+    width: 10vw;
+    height: 36px;
+    background-color: #EB9797;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    margin: 1%;
+    margin-left:4%;
+    border-radius: 10px;
+    border: solid 1px #EB9797;
+    
+}
+
+.subtitulo{
+    font-size: 25px;
+    font-family: 'Comfortaa';
+    font-weight: 300;    
+    display: flex;
+    justify-content: center;
+}
+
+.ul{
+    list-style:none;
+}
+
+.listado{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45vw;
+    height: auto;
+    background-color: white;    
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    /*padding: 2%;*/
+}
+
+.category{
+    display: flex;
+}
+
+.categoria{
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Comfortaa';
+    font-weight: 500;
+    font-weight: 300;
+    margin: 1%;
+    padding:1%;
+    border: solid 1px #EB9797;
+    border-radius: 10px;
+
+}
+
+.container{
+
+    display: flex;    
+    justify-content: center;
+}
+
+
+
+.boton{    
+    width: 15vw;
+    height: 36px;
+    background-color: #EB9797;
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    margin: 1%;   
+    border-radius: 10px;
+    border: solid 1px #EB9797;
+    text-align: center;
+}
+
+.boton:hover{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    transition: 1s;
+}
+
+.boton.active{
+    outline: none;
+}
+
+.ira{
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

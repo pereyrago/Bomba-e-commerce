@@ -1,0 +1,23 @@
+.marco{
+    height: 42vh;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+
+
+.imagen{
+    height:  42vh;
+    width: 65vw;
+    margin-left:13%;
+    
+    
+
+}
+
+.flecha{
+    width: 30px;
+    height: 30px;
+}

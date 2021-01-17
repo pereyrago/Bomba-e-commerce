@@ -1,0 +1,27 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px) opacity(40%);
+    background-color: rgb(255,255,255,0.3);
+}
+
+.revContainer{
+    width: 35vw;
+    font-family: "Comfortaa";
+    background-color: white;
+    margin: 2%;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.20);
+    border-radius: 20px;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    overflow-y: scroll;
+    z-index: 100;
+}
